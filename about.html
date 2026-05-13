@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>About Vopak Holding Terminals B.V. | Independent Terminal Operator</title>
+  <meta name="description" content="Learn about Vopak Holding Terminals B.V., an independent petroleum terminal operator with strategic facilities in Rotterdam, Houston, Fujairah and Jurong. ISO 9001 certified.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="image/vopak-logo.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- SEO -->
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Vopak Holding Terminals B.V.">
+  <meta name="keywords" content="petroleum storage operator, tank farm services, marine terminal operations, oil logistics company, energy storage solutions, independent terminal operator, petroleum tank leasing, Rotterdam oil terminal, crude oil storage">
+  <meta name="theme-color" content="#07070f">
+  <link rel="apple-touch-icon" href="image/vopak-logo.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+  <link rel="canonical" href="https://www.vpterminalholding.com/about.html">
+  <meta name="geo.region" content="NL-ZH">
+  <meta name="geo.placename" content="Rotterdam">
+  <meta name="geo.position" content="51.9225;4.4792">
+  <meta name="ICBM" content="51.9225, 4.4792">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Vopak Holding Terminals B.V.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://www.vpterminalholding.com/about.html">
+  <meta property="og:title" content="About Vopak Holding Terminals B.V. | Independent Terminal Operator">
+  <meta property="og:description" content="Learn about Vopak Holding Terminals B.V., an independent petroleum terminal operator with strategic facilities in Rotterdam, Houston, Fujairah and Jurong. ISO 9001 certified.">
+  <meta property="og:image" content="https://www.vpterminalholding.com/image/VP-Rotterdam-NL.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Vopak Holding Terminals B.V. — Rotterdam Oil Terminal">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About Vopak Holding Terminals B.V. | Independent Terminal Operator">
+  <meta name="twitter:description" content="Learn about Vopak Holding Terminals B.V., an independent petroleum terminal operator with strategic facilities in Rotterdam, Houston, Fujairah and Jurong. ISO 9001 certified.">
+  <meta name="twitter:image" content="https://www.vpterminalholding.com/image/VP-Rotterdam-NL.jpg">
+  <meta name="twitter:image:alt" content="Vopak Holding Terminals B.V. — Rotterdam Oil Terminal">
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.vpterminalholding.com/#organization",
+        "name": "Vopak Holding Terminals B.V.",
+        "url": "https://www.vpterminalholding.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.vpterminalholding.com/image/vopak-logo.png"
+        },
+        "description": "Independent terminal storage operator for crude oil, petroleum products, LNG and chemicals at Rotterdam, Houston, Fujairah and Jurong.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Westerlaan 10",
+          "addressLocality": "Rotterdam",
+          "postalCode": "3016 CK",
+          "addressCountry": "NL"
+        },
+        "telephone": "+31-10-400-2911",
+        "email": "contact@vpterminalholding.com"
+      },
+      {
+        "@type": "AboutPage",
+        "@id": "https://www.vpterminalholding.com/about.html#webpage",
+        "url": "https://www.vpterminalholding.com/about.html",
+        "name": "About Vopak | Independent Petroleum Storage & Marine Terminal Operator",
+        "description": "Independent petroleum storage operator with 40+ years in marine terminal operations. Crude oil, LNG & energy storage solutions at Rotterdam, Houston, Fujairah & Jurong.",
+        "isPartOf": { "@id": "https://www.vpterminalholding.com/#website" },
+        "about": { "@id": "https://www.vpterminalholding.com/#organization" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.vpterminalholding.com/" },
+            { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://www.vpterminalholding.com/about.html" }
+          ]
+        }
+      }
+    ]
+  }
+  </script>
+  <style>
+    /* ── About hero layout ── */
+    .about-hero-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding-top: 90px;
+      position: relative;
+      overflow: hidden;
+    }
+    .about-hero-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    .about-hero-img-col {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .about-hero-img-wrap {
+      position: relative;
+      width: 100%;
+      max-width: 500px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: 0 24px 64px rgba(0,0,128,0.45), 0 0 0 1px rgba(212,160,23,0.1);
+    }
+    .about-hero-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: brightness(0.75) saturate(0.8);
+    }
+    .about-hero-img-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(145deg, rgba(0,0,80,0.45) 0%, rgba(0,0,20,0.15) 60%, rgba(0,0,20,0.4) 100%);
+    }
+    .about-hero-img-border {
+      position: absolute;
+      inset: 0;
+      border: 1px solid rgba(212,160,23,0.22);
+      border-radius: var(--radius-lg);
+      pointer-events: none;
+    }
+    .about-hero-img-corner-tr {
+      position: absolute;
+      top: 1rem; right: 1rem;
+      width: 20px; height: 20px;
+      border-top: 2px solid rgba(212,160,23,0.65);
+      border-right: 2px solid rgba(212,160,23,0.65);
+      pointer-events: none;
+    }
+    .about-hero-img-corner-bl {
+      position: absolute;
+      bottom: 1rem; left: 1rem;
+      width: 20px; height: 20px;
+      border-bottom: 2px solid rgba(212,160,23,0.65);
+      border-left: 2px solid rgba(212,160,23,0.65);
+      pointer-events: none;
+    }
+
+    @media (max-width: 768px) {
+      .about-hero-section { padding-top: 80px; min-height: auto; padding-bottom: 3rem; }
+      .about-hero-inner {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+      }
+      .about-hero-inner .section-label { justify-content: center; }
+      .about-hero-inner p { text-align: justify; }
+      .about-hero-inner > .about-hero-text { order: 2; }
+      .about-hero-inner > .about-hero-img-col { order: 1; }
+      .about-hero-inner [style*="display:flex"][style*="gap:1rem"] {
+        justify-content: center;
+      }
+      .about-hero-img-wrap { max-width: 100%; }
+    }
+
+    /* ── About-page specific styles ── */
+    .mission-block {
+      padding: clamp(4rem, 8vw, 8rem) 0;
+      position: relative;
+    }
+    .mission-quote {
+      font-size: clamp(1.6rem, 3.5vw, 2.6rem);
+      font-weight: 800;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+    .mission-quote em {
+      font-style: normal;
+      color: var(--gold);
+    }
+    .divider-line {
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--gold), transparent);
+      margin: 2rem 0;
+    }
+    .stat-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      margin-top: 3rem;
+    }
+    .stat-row-item {
+      padding: 2rem 1.75rem;
+      border-right: 1px solid var(--border);
+      position: relative;
+    }
+    .stat-row-item:last-child { border-right: none; }
+    .stat-row-num {
+      font-size: clamp(2rem, 3.5vw, 3rem);
+      font-weight: 900;
+      color: var(--text);
+      line-height: 1;
+    }
+    .stat-row-num span { color: var(--gold); }
+    .stat-row-label {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-top: 0.4rem;
+    }
+
+    /* ── Hero worker image overlay ── */
+    .about-hero-img {
+      position: absolute;
+      right: 0; top: 0; bottom: 0;
+      width: 45%;
+      overflow: hidden;
+    }
+    .about-hero-img img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      filter: brightness(0.45) saturate(0.5);
+    }
+    .about-hero-img::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, var(--bg) 0%, rgba(7,7,15,0.6) 50%, transparent 100%);
+      z-index: 1;
+    }
+
+    /* ── Approach grid ── */
+    .approach-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .approach-item {
+      background: var(--bg-alt);
+      padding: 2.5rem 2rem;
+      transition: background var(--transition);
+    }
+    .approach-item:hover { background: var(--bg-alt2); }
+    .approach-icon {
+      width: 44px; height: 44px;
+      border: 1px solid var(--border-gold);
+      border-radius: var(--radius);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--gold);
+      font-size: 1.2rem;
+      margin-bottom: 1.25rem;
+    }
+    .approach-title { font-size: 1rem; font-weight: 700; margin-bottom: 0.6rem; }
+
+    /* ── Regional map teaser ── */
+    .region-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .region-item {
+      padding: 2.5rem 1.75rem;
+      border-right: 1px solid var(--border);
+      background: var(--bg-alt);
+      transition: background var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .region-item:last-child { border-right: none; }
+    .region-item:hover { background: var(--bg-alt2); }
+    .region-flag { font-size: 2.2rem; margin-bottom: 1rem; }
+    .region-name { font-size: 1.1rem; font-weight: 800; letter-spacing: -0.01em; }
+    .region-sub  { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 0.2rem; }
+    .region-glow {
+      position: absolute;
+      bottom: -30px; right: -30px;
+      width: 100px; height: 100px;
+      background: radial-gradient(circle, rgba(0,0,128,0.3) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+
+    @media (max-width: 1024px) {
+      .about-hero-img { display: none; }
+      .stat-row { grid-template-columns: repeat(2, 1fr); }
+      .stat-row-item:nth-child(2) { border-right: none; }
+      .stat-row-item:nth-child(3) { border-top: 1px solid var(--border); }
+      .stat-row-item:nth-child(4) { border-top: 1px solid var(--border); }
+    }
+    @media (max-width: 768px) {
+      .approach-grid { grid-template-columns: 1fr; }
+      .region-strip { grid-template-columns: repeat(2, 1fr); }
+      .region-item:nth-child(2) { border-right: none; }
+      .region-item:nth-child(3) { border-top: 1px solid var(--border); }
+      .region-item:nth-child(4) { border-top: 1px solid var(--border); border-right: none; }
+    }
+    @media (max-width: 480px) {
+      .region-strip { grid-template-columns: 1fr; }
+      .region-item { border-right: none; border-bottom: 1px solid var(--border); }
+      .region-item:last-child { border-bottom: none; }
+      .stat-row { grid-template-columns: 1fr; }
+      .stat-row-item { border-right: none; border-bottom: 1px solid var(--border); }
+      .stat-row-item:last-child { border-bottom: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════ TOP BAR ══════════ -->
+<div class="topbar" role="complementary" aria-label="Company contact information">
+  <div class="container">
+    <div class="topbar-inner">
+      <span class="topbar-item">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Westerlaan 10, 3016 CK, Rotterdam
+      </span>
+      <div class="topbar-sep"></div>
+      <span class="topbar-item">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <a href="mailto:contact@vpterminalholding.com">contact@vpterminalholding.com</a>
+      </span>
+      <div class="topbar-sep"></div>
+      <span class="topbar-item">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6 6l1.91-1.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +31 (0)10 400 2911
+      </span>
+      <div class="topbar-sep"></div>
+      <span class="topbar-item">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+        KvK: 24120132
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ NAVIGATION ══════════ -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Vopak Holding Terminals home">
+        <img src="image/vopak-logo.png" alt="Vopak Holding Terminals B.V." style="height:44px;width:auto;display:block;">
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="about.html" class="active">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="terminals.html">Terminals</a></li>
+        <li><a href="sustainability.html">Sustainability</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary nav-cta">Submit Request</a>
+      <button class="nav-hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="nav-mobile" role="dialog" aria-label="Mobile navigation">
+  <a href="about.html">About Us</a>
+  <a href="services.html">Services</a>
+  <a href="terminals.html">Terminals</a>
+  <a href="sustainability.html">Sustainability</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-primary">Submit Request</a>
+</div>
+
+<!-- ══════════ HERO ══════════ -->
+<section class="about-hero-section" aria-labelledby="about-hero-heading">
+  <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+  <div class="hero-orb hero-orb-2" aria-hidden="true"></div>
+
+  <div class="container about-hero-inner">
+
+    <!-- Text column -->
+    <div class="about-hero-text">
+      <nav aria-label="Breadcrumb" class="fade-up" style="margin-bottom:1rem;">
+        <ol style="display:flex;align-items:center;gap:0.4rem;list-style:none;padding:0;margin:0;font-size:0.78rem;color:var(--text-dim);">
+          <li><a href="index.html" style="color:var(--text-muted);text-decoration:none;">Home</a></li>
+          <li aria-hidden="true">›</li>
+          <li style="color:var(--text);">About Us</li>
+        </ol>
+      </nav>
+      <div class="section-label fade-up">About Vopak</div>
+      <h1 id="about-hero-heading" class="fade-up" style="text-transform:uppercase; margin-bottom:1.5rem; font-size:clamp(3rem,7vw,5.5rem);">
+        Vopak Holding<br>
+        <span class="text-gold">Terminals.</span><br>
+        Independent. Trusted.
+      </h1>
+      <p class="fade-up" style="font-size:1.05rem; max-width:520px; margin-bottom:2.5rem;">
+        Vopak Holding Terminals B.V. is one of the world's leading independent terminal operators, providing critical energy storage infrastructure at the most strategically important ports on the planet.
+      </p>
+      <div class="fade-up" style="display:flex; gap:1rem; flex-wrap:wrap;">
+        <a href="contact.html" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Work With Us
+        </a>
+        <a href="services.html" class="btn btn-outline">Our Services</a>
+      </div>
+
+      <!-- Quick stats row -->
+      <div class="stat-row fade-up">
+        <div class="stat-row-item">
+          <div class="stat-row-num"><span data-count="4">4</span>M<span>+</span></div>
+          <div class="stat-row-label">Barrels capacity</div>
+        </div>
+        <div class="stat-row-item">
+          <div class="stat-row-num"><span data-count="40">40</span><span>+</span></div>
+          <div class="stat-row-label">Years operating</div>
+        </div>
+        <div class="stat-row-item">
+          <div class="stat-row-num"><span data-count="4">4</span></div>
+          <div class="stat-row-label">Global terminals</div>
+        </div>
+        <div class="stat-row-item">
+          <div class="stat-row-num"><span data-count="30">30</span><span>+</span></div>
+          <div class="stat-row-label">Counterparties</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image column -->
+    <div class="about-hero-img-col fade-up">
+      <div class="about-hero-img-wrap">
+        <img src="image/about-us-image.jpg" alt="Vopak Holding Terminals — independent petroleum storage and marine terminal operations" width="500" height="273" loading="lazy" decoding="async">
+        <div class="about-hero-img-overlay"></div>
+        <div class="about-hero-img-border"></div>
+        <div class="about-hero-img-corner-tr"></div>
+        <div class="about-hero-img-corner-bl"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════ MISSION ══════════ -->
+<section class="mission-block" style="background:var(--bg-alt); border-top:1px solid var(--border); border-bottom:1px solid var(--border);" aria-labelledby="mission-heading">
+  <div class="container">
+    <div class="mission-grid">
+      <div>
+        <div class="section-label fade-up">Our Mission</div>
+        <blockquote class="mission-quote fade-up">
+          "We secure the world's most critical energy corridors — so trade can flow <em>without interruption.</em>"
+        </blockquote>
+        <div class="divider-line fade-up"></div>
+        <p class="fade-up" style="font-size:.95rem; line-height:1.8;">
+          Incorporated in the Netherlands, Vopak Holding Terminals B.V. operates as a fully independent entity — holding no equity in crude oil producers or end-buyers. This independence guarantees that our terminal services are delivered with impartiality, making us a trusted counterparty for national oil companies, traders, refineries, and financial institutions alike.
+        </p>
+      </div>
+      <div class="fade-up">
+        <div style="background:var(--bg); border:1px solid var(--border); border-radius:var(--radius-lg); padding:2.5rem; position:relative;">
+          <div style="position:absolute; top:-1px; left:2rem; right:2rem; height:2px; background:linear-gradient(90deg, transparent, var(--gold), transparent);"></div>
+          <div class="section-label" style="margin-bottom:1.5rem;">Core Principles</div>
+          <div style="display:flex; flex-direction:column; gap:1.25rem;">
+            <div style="display:flex; gap:1rem; align-items:flex-start;">
+              <div style="width:28px; height:28px; background:var(--gold-pale); border:1px solid var(--border-gold); border-radius:var(--radius); display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:2px;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <div style="font-size:.9rem; font-weight:700; margin-bottom:.25rem;">Full operational independence</div>
+                <p style="font-size:.82rem;">No upstream or downstream equity interests — pure terminal service provider.</p>
+              </div>
+            </div>
+            <div style="display:flex; gap:1rem; align-items:flex-start;">
+              <div style="width:28px; height:28px; background:var(--gold-pale); border:1px solid var(--border-gold); border-radius:var(--radius); display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:2px;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <div style="font-size:.9rem; font-weight:700; margin-bottom:.25rem;">Compliance embedded at every level</div>
+                <p style="font-size:.82rem;">ISO, ISPS, OVIQ and local regulatory compliance is non-negotiable across all terminals.</p>
+              </div>
+            </div>
+            <div style="display:flex; gap:1rem; align-items:flex-start;">
+              <div style="width:28px; height:28px; background:var(--gold-pale); border:1px solid var(--border-gold); border-radius:var(--radius); display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:2px;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <div style="font-size:.9rem; font-weight:700; margin-bottom:.25rem;">Contractual certainty</div>
+                <p style="font-size:.82rem;">Tank allocation agreements with clearly defined tenure, pricing benchmarks, and exit terms.</p>
+              </div>
+            </div>
+            <div style="display:flex; gap:1rem; align-items:flex-start;">
+              <div style="width:28px; height:28px; background:var(--gold-pale); border:1px solid var(--border-gold); border-radius:var(--radius); display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:2px;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <div style="font-size:.9rem; font-weight:700; margin-bottom:.25rem;">24/7 operational readiness</div>
+                <p style="font-size:.82rem;">Round-the-clock operations, emergency response capability and dedicated client liaison at every site.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ TIMELINE ══════════ -->
+<section class="section" id="timeline" aria-labelledby="timeline-heading">
+  <div class="container">
+    <div style="margin-bottom:3rem;">
+      <div class="section-label fade-up">Our History</div>
+      <h2 id="timeline-heading" class="fade-up">Four Decades of Reliability</h2>
+      <p class="fade-up" style="max-width:520px; margin-top:.75rem;">Built on decades of operational excellence at some of the most demanding energy hubs in the world.</p>
+    </div>
+    <div class="timeline fade-up" role="list">
+      <div class="timeline-item" role="listitem">
+        <div class="timeline-year">1982</div>
+        <div class="timeline-event">Founded in Rotterdam as an independent terminal operator serving ARA region crude traders.</div>
+      </div>
+      <div class="timeline-item" role="listitem">
+        <div class="timeline-year">1991</div>
+        <div class="timeline-event">Expansion into Houston Ship Channel. First US Gulf Coast terminal facility opened.</div>
+      </div>
+      <div class="timeline-item" role="listitem">
+        <div class="timeline-year">1998</div>
+        <div class="timeline-event">ISO 9001 certification achieved across all terminal facilities. International expansion phase begins.</div>
+      </div>
+      <div class="timeline-item" role="listitem">
+        <div class="timeline-year">2004</div>
+        <div class="timeline-event">Fujairah terminal inaugurated. First Middle East facility positioned outside Strait of Hormuz.</div>
+      </div>
+      <div class="timeline-item" role="listitem">
+        <div class="timeline-year">2009</div>
+        <div class="timeline-event">Singapore Jurong Island terminal opens. Asia-Pacific coverage now complete.</div>
+      </div>
+      <div class="timeline-item" role="listitem">
+        <div class="timeline-year">2015</div>
+        <div class="timeline-event">LNG storage capability added at Rotterdam and Jurong. OVIQ certification achieved at Fujairah.</div>
+      </div>
+      <div class="timeline-item" role="listitem">
+        <div class="timeline-year">2019</div>
+        <div class="timeline-event">ISO 45001 (Occupational Health &amp; Safety) achieved globally. STS operations launched at Fujairah.</div>
+      </div>
+      <div class="timeline-item" role="listitem">
+        <div class="timeline-year">2024</div>
+        <div class="timeline-event">Combined capacity exceeds 4M barrels. 30+ active counterparties across 4 continents.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ VALUES ══════════ -->
+<section class="section" id="values" style="background:var(--bg-alt); border-top:1px solid var(--border); border-bottom:1px solid var(--border);" aria-labelledby="values-heading">
+  <div class="container">
+    <div style="text-align:center; margin-bottom:3rem;">
+      <div class="section-label fade-up" style="justify-content:center;">How We Operate</div>
+      <h2 id="values-heading" class="fade-up">Our Values</h2>
+    </div>
+    <div class="values-grid">
+      <div class="value-card fade-up">
+        <div class="value-number">01</div>
+        <div class="value-title">Integrity in Every Transaction</div>
+        <p style="font-size:.875rem;">We operate with complete transparency — clients receive full documentation, inspection reports, and cost breakdowns. No hidden charges, no ambiguity. Every tank allocation is governed by a binding, clearly-structured agreement.</p>
+      </div>
+      <div class="value-card fade-up">
+        <div class="value-number">02</div>
+        <div class="value-title">Safety Without Compromise</div>
+        <p style="font-size:.875rem;">Our terminals operate under ISO 45001 occupational safety standards, ISPS maritime security protocols, and continuous environmental monitoring. The safety of our people, clients' cargo, and surrounding communities is paramount.</p>
+      </div>
+      <div class="value-card fade-up">
+        <div class="value-number">03</div>
+        <div class="value-title">Environmental Responsibility</div>
+        <p style="font-size:.875rem;">ISO 14001 environmental management is embedded across all four terminal sites. We invest continuously in spill containment, vapour recovery, and emissions reduction — setting the standard for sustainable terminal operations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ APPROACH ══════════ -->
+<section class="section" aria-labelledby="approach-heading">
+  <div class="container">
+    <div style="margin-bottom:3rem;">
+      <div class="section-label fade-up">How We Work</div>
+      <h2 id="approach-heading" class="fade-up">Our Operational Approach</h2>
+      <p class="fade-up" style="max-width:520px; margin-top:.75rem;">From initial request to ongoing operations, every step is designed to give clients certainty, visibility and control.</p>
+    </div>
+    <div class="approach-grid">
+      <div class="approach-item fade-up">
+        <div class="approach-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        </div>
+        <div class="approach-title">1 — Commercial Structuring</div>
+        <p style="font-size:.875rem;">We begin every engagement by understanding your product, volume, tenure, and delivery requirements. Our commercial team structures bespoke spot or term agreements aligned to your operational and financial objectives.</p>
+      </div>
+      <div class="approach-item fade-up">
+        <div class="approach-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <div class="approach-title">2 — Tank Allocation &amp; Inspection</div>
+        <p style="font-size:.875rem;">Upon agreement, dedicated tank(s) are allocated and independently inspected. Pre-receipt, in-transit and discharge surveys are performed by accredited third-party inspectors to ensure product quality and quantity integrity.</p>
+      </div>
+      <div class="approach-item fade-up">
+        <div class="approach-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+        </div>
+        <div class="approach-title">3 — Logistics &amp; Vessel Scheduling</div>
+        <p style="font-size:.875rem;">Our operations team coordinates vessel nominations, berth scheduling, customs documentation and port authority liaisons at all four terminals. We support FOB, CIF, DAP and custom Incoterms arrangements.</p>
+      </div>
+      <div class="approach-item fade-up">
+        <div class="approach-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+        </div>
+        <div class="approach-title">4 — Compliance &amp; Documentation</div>
+        <p style="font-size:.875rem;">End-to-end documentation management — bills of lading, certificates of origin, quality certificates, customs declarations and AML/KYC counterparty verification — delivered to global regulatory standards.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ GLOBAL PRESENCE ══════════ -->
+<section class="section" style="background:var(--bg-alt); border-top:1px solid var(--border); border-bottom:1px solid var(--border);" aria-labelledby="presence-heading">
+  <div class="container">
+    <div style="text-align:center; margin-bottom:3rem;">
+      <div class="section-label fade-up" style="justify-content:center;">Presence</div>
+      <h2 id="presence-heading" class="fade-up">Global Terminal Network</h2>
+    </div>
+    <div class="region-strip fade-up">
+      <div class="region-item">
+        <div class="region-glow" aria-hidden="true"></div>
+        <div class="region-flag">🇳🇱</div>
+        <div class="region-name">Rotterdam</div>
+        <div class="region-sub">Botlek / Europoort · NL</div>
+        <div style="margin-top:1.25rem; font-size:.8rem; color:var(--text-muted); line-height:1.6;">Europe's gateway to global crude and refined product flows. ARA pipeline connected.</div>
+      </div>
+      <div class="region-item">
+        <div class="region-glow" aria-hidden="true"></div>
+        <div class="region-flag">🇺🇸</div>
+        <div class="region-name">Houston</div>
+        <div class="region-sub">Ship Channel · TX</div>
+        <div style="margin-top:1.25rem; font-size:.8rem; color:var(--text-muted); line-height:1.6;">Access to US Gulf Coast refining, Permian crude, and transatlantic export lanes.</div>
+      </div>
+      <div class="region-item">
+        <div class="region-glow" aria-hidden="true"></div>
+        <div class="region-flag">🇦🇪</div>
+        <div class="region-name">Fujairah</div>
+        <div class="region-sub">Gulf of Oman · UAE</div>
+        <div style="margin-top:1.25rem; font-size:.8rem; color:var(--text-muted); line-height:1.6;">World-class bunkering hub. Bypasses Strait of Hormuz. STS and blending capable.</div>
+      </div>
+      <div class="region-item">
+        <div class="region-glow" aria-hidden="true"></div>
+        <div class="region-flag">🇸🇬</div>
+        <div class="region-name">Jurong</div>
+        <div class="region-sub">Jurong Island · SG</div>
+        <div style="margin-top:1.25rem; font-size:.8rem; color:var(--text-muted); line-height:1.6;">Heart of Asia-Pacific petrochemicals. Chemicals, LNG and petroleum product storage.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ LEADERSHIP ══════════ -->
+<section class="section" id="team" aria-labelledby="team-heading">
+  <div class="container">
+    <div style="margin-bottom:3rem;">
+      <div class="section-label fade-up">Leadership</div>
+      <h2 id="team-heading" class="fade-up">Our Management Team</h2>
+      <p class="fade-up" style="max-width:520px; margin-top:.75rem;">Experienced professionals with decades of combined expertise in terminal operations, energy trading, logistics, and compliance.</p>
+    </div>
+    <div class="team-grid">
+
+      <!-- CEO -->
+      <div class="team-card fade-up">
+        <div class="team-photo">
+          <div class="team-monogram">PB</div>
+        </div>
+        <div class="team-info">
+          <div class="team-name">Pieter van den Berg</div>
+          <div class="team-role">Chief Executive Officer</div>
+          <p class="team-bio">30+ years in terminal operations and energy infrastructure. Previously VP Operations at a major European port authority. Drives global strategy and institutional partnerships across all four hubs.</p>
+          <div class="team-expertise">
+            <span class="team-tag">Terminal Ops</span>
+            <span class="team-tag">Strategy</span>
+            <span class="team-tag">Infrastructure</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CCO -->
+      <div class="team-card fade-up">
+        <div class="team-photo">
+          <div class="team-monogram">SA</div>
+        </div>
+        <div class="team-info">
+          <div class="team-name">Sarah Al-Rashidi</div>
+          <div class="team-role">Chief Commercial Officer</div>
+          <p class="team-bio">Specialist in Middle East and Asian crude markets. Leads commercial strategy across Fujairah and Jurong terminals. 18+ years structuring term and spot agreements for NOCs and majors.</p>
+          <div class="team-expertise">
+            <span class="team-tag">Energy Trading</span>
+            <span class="team-tag">MENA Markets</span>
+            <span class="team-tag">Structuring</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COO -->
+      <div class="team-card fade-up">
+        <div class="team-photo">
+          <div class="team-monogram">MH</div>
+        </div>
+        <div class="team-info">
+          <div class="team-name">Marcus J. Hoffman</div>
+          <div class="team-role">Chief Operations Officer</div>
+          <p class="team-bio">20 years leading terminal operations at major US Gulf Coast facilities. Expert in safety, compliance, and throughput optimisation. Oversees Rotterdam and Houston site operations.</p>
+          <div class="team-expertise">
+            <span class="team-tag">HSE Compliance</span>
+            <span class="team-tag">Logistics</span>
+            <span class="team-tag">US Gulf Coast</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CTA ══════════ -->
+<section style="padding-bottom:6rem;">
+  <div class="container">
+    <div class="cta-banner fade-up">
+      <div class="section-label" style="justify-content:center; margin-bottom:1rem;">Get In Touch</div>
+      <h2>Ready to Work Together?</h2>
+      <p>Our commercial and operations teams are available to discuss storage requirements, term agreements, and operational specifications at any of our four terminals.</p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="contact.html" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Submit a Request
+        </a>
+        <a href="services.html" class="btn btn-outline">Explore Terminals</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo" style="display:inline-flex;">
+          <img src="image/vopak-logo.png" alt="Vopak Holding Terminals B.V." style="height:44px;width:auto;display:block;">
+        </a>
+        <p>Independent terminal storage for crude oil, petroleum products, LNG and chemicals at four global hubs.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html#values">Our Values</a></li>
+          <li><a href="about.html#timeline">History</a></li>
+          <li><a href="about.html#team">Leadership</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Terminals</h5>
+        <ul>
+          <li><a href="services.html#rotterdam">Rotterdam</a></li>
+          <li><a href="services.html#houston">Houston</a></li>
+          <li><a href="services.html#fujairah">Fujairah</a></li>
+          <li><a href="services.html#jurong">Jurong</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="contact.html">Submit Request</a></li>
+          <li><a href="contact.html">Commercial Enquiries</a></li>
+          <li><a href="contact.html">Operations</a></li>
+          <li><a href="contact.html">Compliance</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="text-muted">© 2026 Vopak Holding Terminals B.V. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="legal-notice.html">Legal Notice</a>
+        <a href="cookie-policy.html">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/animations.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
